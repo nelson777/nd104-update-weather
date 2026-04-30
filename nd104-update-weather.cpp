@@ -22,7 +22,7 @@ namespace fs = std::filesystem;
 
 const std::string DEFAULT_LOCATION = "Fortaleza, Brazil";
 const std::string DEFAULT_HID_NAME_REQUIRED_STRINGS = "nd104,screen";
-const std::string UPDATER_VERSION = "0.3.7Ca";
+const std::string UPDATER_VERSION = "0.3.8Ca";
 
 const std::vector<int> WEATHERAPI_CODES = {
     1000,

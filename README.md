@@ -25,6 +25,7 @@ Update Chilkey's ND104 keyboard screen using Weather API in Linux
 
 2. For the NodeJs Verison
     - A functional NodeJs environment. Please follow [these instructions](https://nodejs.org/en/download).
+
    For the C++ version:
     - A proper compilation environment. This will suffice: `sudo apt install g++ libcurl4-openssl-dev nlohmann-json3-dev`
 
