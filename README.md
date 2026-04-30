@@ -19,7 +19,7 @@ git clone https://github.com/nelson777/nd104-update-weather .
 
 ```bash
 chmod +x nd104-update-weather.js
-sudo -E WEATHER_API_KEY=<your_api_key> -E ./nd104-update-weather.js 
+sudo -E WEATHER_API_KEY=<your_api_key> ./nd104-update-weather.js 
 ```
 
 ## Contact
