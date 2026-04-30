@@ -50,7 +50,6 @@ You'll get the executable file **nd104-update-weather**
 WEATHER_API_KEY=<your_weather_api_key> ./nd104-update-weather.js
 ```
 
-
 #### C++ version
 
 ```bash
@@ -67,4 +66,3 @@ Feel free to contact me: nelson777@gmail.com
 ```bash
 git clone https://github.com/nelson777/nd104-update-weather .
 ```
-
