@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const UPDATER_VERSION='0.3.8a'
+const UPDATER_VERSION='0.3.9a'
 const API_KEY = process.env.WEATHER_API_KEY;
 const LOCATION = process.env.WEATHER_LOCATION || 'Fortaleza, Brazil';
 
