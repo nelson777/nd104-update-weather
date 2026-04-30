@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const UPDATER_VERSION='0.3.2a'
+const UPDATER_VERSION='0.3.4a'
 const API_KEY = process.env.WEATHER_API_KEY;
 const LOCATION = process.env.WEATHER_LOCATION || 'Fortaleza, Brazil';
 
@@ -13,8 +13,6 @@ const HID_NAME_REQUIRED_STRINGS = (
   .split(',')
   .map((value) => value.trim())
   .filter(Boolean);
-
-console.log('rs', HID_NAME_REQUIRED_STRINGS);
 
 if (!API_KEY) {
   console.error('Erro: defina WEATHER_API_KEY');
